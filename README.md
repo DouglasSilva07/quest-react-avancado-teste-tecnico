@@ -93,7 +93,8 @@ Passos
 http://localhost:5173
 
 
-```### 📂** Estrutura do projeto (resumida)**
+### **📂 Estrutura do projeto (resumida)**
+```
 src/
  ├── components/
  │    ├── PokemonsList.tsx      # Lista e busca de pokémons
