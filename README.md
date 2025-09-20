@@ -1,13 +1,13 @@
-#**Pokédex** **React**
+# **Pokédex** **React**
 
-##📌 Propósito da aplicação
+## 📌 Propósito da aplicação
 
 Esta aplicação tem como objetivo listar, pesquisar e exibir detalhes de diferentes Pokémons utilizando a PokéAPI
 .
 Ela foi desenvolvida como um desafio prático para demonstrar conhecimentos em React, TypeScript, consumo de APIs e gerenciamento de estado.
 
 
-##⚡ **Funcionalidades**
+## ⚡ **Funcionalidades**
 
 Listagem de Pokémons paginada, carregando 10 por vez.
 
@@ -24,7 +24,7 @@ Navegação entre páginas (lista e detalhes) com react-router-dom.
 Tratamento de erros e feedback visual de carregamento.
 
 
-##🛠️ **Ferramentas** **utilizadas**
+## 🛠️ **Ferramentas** **utilizadas**
 
 React + Vite → base da aplicação, rápido e moderno.
 
@@ -38,7 +38,7 @@ TailwindCSS → para estilização rápida e responsiva.
 
 Context API → para gerenciamento do tema (dark/light).
 
-###🔎 **Por que essas escolhas?**
+### 🔎 **Por que essas escolhas?**
 
 React + Vite: inicialização rápida e melhor performance no ambiente de desenvolvimento.
 
@@ -52,7 +52,7 @@ TailwindCSS: flexibilidade na estilização sem precisar criar diversos arquivos
 
 Context API: solução leve e simples para compartilhar estado global (tema).
 
-###📐 **Decisões de planejamento e execução**
+### 📐 **Decisões de planejamento e execução**
 
 Paginação manual com offset → para não sobrecarregar a tela nem a API, limitando a busca a 10 resultados por vez.
 
@@ -65,7 +65,7 @@ Persistência de tema no localStorage → experiência personalizada entre sess�
 Tratamento de erros e loading states → evita telas quebradas e melhora a usabilidade.
 
 
-##🚀 **Como rodar o projeto**
+## 🚀 **Como rodar o projeto**
 Pré-requisitos
 
 Node.js (>= 18)
@@ -93,7 +93,7 @@ yarn dev
 http://localhost:5173
 
 
-###📂** Estrutura do projeto (resumida)**
+### 📂** Estrutura do projeto (resumida)**
 src/
  ├── components/
  │    ├── PokemonsList.tsx      # Lista e busca de pokémons
@@ -128,7 +128,7 @@ src/
  ├── Main.tsx # Main da aplicação
 
 
-###✅ **Resultado esperado**
+### ✅ **Resultado esperado**
 
 Listagem inicial de Pokémons.
 
