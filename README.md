@@ -77,9 +77,9 @@ Passos
 ```git clone https://github.com/DouglasSilva07/quest-react-avancado-teste-tecnico.git```
 
 # 2. Acesse a pasta do projeto
-```cd pokedex-react```
+```cd quest-react-avancado-teste```
 
-# 3. Instale as dependências
+# 2. Instale as dependências
 ```npm install```
 # ou
 ```yarn install```
