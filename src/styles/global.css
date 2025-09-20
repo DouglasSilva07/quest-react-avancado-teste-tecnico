@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+
+
+  /* === Light Theme === */
+
+  --color-neutral-very-light-white: hsl(0, 0%, 100%);
+  --color-neutral-light-red: hsl(357, 100%, 45%);
+  --color-neutral-very-light-red: hsl(0, 100%, 82%);
+  --color-neutral-dark-red: hsl(358, 100%, 38%);
+
+
+  /* === Dark Theme === */
+
+  --color-neutral-very-dark-teal: hsl(179, 92%, 10%);
+  --color-neutral-light-teal: hsl(175, 100%, 29%);
+  --color-neutral-dark-teal: hsl(176, 76%, 18%);
+   --color-neutral-very-light-white: hsl(0, 0%, 100%);
+
+  --font-primary: 'Josefin Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+@layer base {
+  .theme-light {
+    @apply bg-[url('/canyon-bg-light.jpg')] bg-center bg-no-repeat bg-cover bg-fixed min-h-screen;
+  }
+
+  .theme-dark {
+    @apply bg-[url('/cave-bg-dark.jpg')] bg-center bg-no-repeat bg-cover bg-fixed min-h-screen;
+  }
+}
