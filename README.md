@@ -74,26 +74,26 @@ npm ou yarn
 
 Passos
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/pokedex-react.git
+```git clone https://github.com/DouglasSilva07/quest-react-avancado-teste-tecnico.git```
 
 # 2. Acesse a pasta do projeto
-cd pokedex-react
+```cd pokedex-react```
 
 # 3. Instale as dependências
-npm install
+```npm install```
 # ou
-yarn install
+```yarn install```
 
 # 4. Inicie o servidor de desenvolvimento
-npm run dev
+```npm run dev```
 # ou
-yarn dev
+```yarn dev```
 
 # 5. Acesse no navegador
 http://localhost:5173
 
 
-### 📂** Estrutura do projeto (resumida)**
+```### 📂** Estrutura do projeto (resumida)**
 src/
  ├── components/
  │    ├── PokemonsList.tsx      # Lista e busca de pokémons
@@ -126,7 +126,7 @@ src/
  ├── App.tsx # Onde é renderizado todos os elementos
  │
  ├── Main.tsx # Main da aplicação
-
+```
 
 ### ✅ **Resultado esperado**
 
